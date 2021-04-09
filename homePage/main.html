@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+
+		<style>
+			body {
+				margin: 0;
+			}
+
+			#index {
+				background-image: radial-gradient(
+					circle at bottom right,
+					rgb(46, 243, 212),
+					rgb(80, 17, 213),
+					rgb(63, 130, 213)
+				);
+			}
+			#header {
+				background-image: repeating-linear-gradient(
+						22.5deg,
+						rgba(255, 255, 255, 0.07) 0px,
+						rgba(255, 255, 255, 0.07) 1px,
+						transparent 1px,
+						transparent 21px,
+						rgba(255, 255, 255, 0.07) 21px,
+						rgba(255, 255, 255, 0.07) 22px,
+						transparent 22px,
+						transparent 62px,
+						rgba(255, 255, 255, 0.07) 62px,
+						rgba(255, 255, 255, 0.07) 63px,
+						transparent 63px,
+						transparent 123px
+					),
+					repeating-linear-gradient(
+						112.5deg,
+						rgba(255, 255, 255, 0.07) 0px,
+						rgba(255, 255, 255, 0.07) 1px,
+						transparent 1px,
+						transparent 21px,
+						rgba(255, 255, 255, 0.07) 21px,
+						rgba(255, 255, 255, 0.07) 22px,
+						transparent 22px,
+						transparent 62px,
+						rgba(255, 255, 255, 0.07) 62px,
+						rgba(255, 255, 255, 0.07) 63px,
+						transparent 63px,
+						transparent 123px
+					),
+					repeating-linear-gradient(
+						67.5deg,
+						rgba(255, 255, 255, 0.07) 0px,
+						rgba(255, 255, 255, 0.07) 1px,
+						transparent 1px,
+						transparent 21px,
+						rgba(255, 255, 255, 0.07) 21px,
+						rgba(255, 255, 255, 0.07) 22px,
+						transparent 22px,
+						transparent 62px,
+						rgba(255, 255, 255, 0.07) 62px,
+						rgba(255, 255, 255, 0.07) 63px,
+						transparent 63px,
+						transparent 123px
+					),
+					repeating-linear-gradient(
+						157.5deg,
+						rgba(255, 255, 255, 0.07) 0px,
+						rgba(255, 255, 255, 0.07) 1px,
+						transparent 1px,
+						transparent 21px,
+						rgba(255, 255, 255, 0.07) 21px,
+						rgba(255, 255, 255, 0.07) 22px,
+						transparent 22px,
+						transparent 62px,
+						rgba(255, 255, 255, 0.07) 62px,
+						rgba(255, 255, 255, 0.07) 63px,
+						transparent 63px,
+						transparent 123px
+					),
+					linear-gradient(
+						90deg,
+						hsl(210, 81%, 56%),
+						hsl(210, 81%, 56%)
+					);
+				height: 12rem;
+			}
+
+			.box {
+				padding: 1rem;
+				margin: 1rem;
+				text-align: center;
+			}
+			.box img {
+				width: 12rem;
+				margin-bottom: 1rem;
+			}
+			.box-paragraph {
+				padding: 1rem 0 1rem;
+			}
+			.display-sm {
+				font-size: 1.4rem;
+				font-weight: 400;
+			}
+
+			#ideas > .col-8 {
+				float: right;
+				margin-left: 33%;
+			}
+
+			.lead {
+				font-weight: 400;
+			}
+
+			.col-centered {
+				float: none;
+				margin: 0 auto;
+			}
+
+			#chatImg {
+				width: 20rem;
+				left: -1rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="index">
+			<div class="container">
+				<div class="container box">
+					<img
+						src="../media/readingImg.svg"
+						alt="readingImg"
+						id="readingImg"
+					/>
+					<p class="display-4">Leia matérias de escritores mirins!</p>
+					<p class="lead">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Repudiandae, quod. Nula?
+					</p>
+				</div>
+
+				<div class="row" id="subjects">
+					<div class="col-12 row box">
+						<div class="col-4">
+							<img
+								src="../media/subjectImg.svg"
+								alt="txtFiles"
+								id="textFilesImg"
+							/>
+							<p class="display-4 display-sm">
+								Mais de 20 Matérias!
+							</p>
+						</div>
+						<div class="col-8">
+							<p class="lead box-paragraph">
+								Lorem ipsum dolor, sit amet consectetur
+								adipisicing elit. Quidem explicabo aliquid
+								sapiente animi tenetur voluptatem nihil
+								cupiditate ea ad consequatur.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="ideas">
+					<div class="col-12 row box">
+						<div class="col-8">
+							<p class="lead box-paragraph">
+								Para os jovens de hoje, é muito bom que haja um
+								grande estudo em cima de um interesse pessoal,
+								tanto para entender seus objetivos de carreira,
+								quanto se especializar na maior quantidade de
+								estudos.
+							</p>
+						</div>
+						<div class="col-4">
+							<img
+								src="../media/formingIdeasImg.svg"
+								alt="txtFiles"
+								id="textFilesImg"
+							/>
+							<p class="display-2 display-sm">Tome iniciativa!</p>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+
+				<div id="conversation">
+					<div class="col-12 container box col-centered">
+						<div class="col-4 d-block col-centered">
+							<img
+								src="../media/conversationImg.svg"
+								alt="chat"
+								id="chatImg"
+							/>
+							<p class="display-4">Tome iniciativa!</p>
+						</div>
+
+						<div class="col d-block col-centered">
+							<p class="lead box-paragraph">
+								Cadastre-se, escolha sua matéria e escreva!
+								Leia, estude, aproveite este site, buscamos
+								suporte de escolas.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+
+				<div></div>
+			</div>
+		</div>
+	</body>
+</html>

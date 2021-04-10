@@ -1,0 +1,12 @@
+#keyboard {
+	display: flex;
+	align-self: center;
+	.key {
+		height: 5rem;
+		width: 1rem;
+		border: 1px solid black;
+		& + key {
+			border-width: 0.5px;
+		}
+	}
+}
